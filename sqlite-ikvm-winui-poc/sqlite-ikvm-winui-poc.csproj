@@ -33,11 +33,11 @@
   </ItemGroup>
 
   <ItemGroup>
-	<IkvmReference Include="C:\dev\sqlite-ikvm-poc\sqlite-service\build\libs\sqlite-service-1.0.0.jar">
+	<IkvmReference Include="..\sqlite-ikvm-poc\sqlite-service\build\libs\sqlite-service-1.0.0.jar">
 		<AssemblyName>MyAssembly</AssemblyName>
 		<AssemblyVersion>1.0.0</AssemblyVersion>
 		<AssemblyFileVersion>1.0.0</AssemblyFileVersion>
-		<Compile>C:\dev\sqlite-ikvm-poc\sqlite-service\build\libs\sqlite-service-1.0.0.jar</Compile>
+		<Compile>..\sqlite-ikvm-poc\sqlite-service\build\libs\sqlite-service-1.0.0.jar</Compile>
 	</IkvmReference>
 	<MavenReference Include="org.xerial:sqlite-jdbc" Version="3.42.0.0" />
 	<MavenReference Include="org.flywaydb:flyway-core" Version="9.16.1" />
