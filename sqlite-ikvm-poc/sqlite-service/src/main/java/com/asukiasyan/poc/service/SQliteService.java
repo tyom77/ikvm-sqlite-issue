@@ -1,12 +1,10 @@
 package com.asukiasyan.poc.service;
 
-/*
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.flywaydb.core.Flyway;
 import org.sqlite.SQLiteDataSource;
-*/
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -20,7 +18,7 @@ public class SQliteService {
 
     }
 
-/*
+
     public void init() {
         SQLiteDataSource dataSource = new SQLiteDataSource();
         dataSource.setUrl("jdbc:sqlite:database.db");
@@ -31,15 +29,11 @@ public class SQliteService {
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder()
                 .build(SQliteService.class.getResourceAsStream("/mybatis-config.xml"));
 
-*/
-/*
         try (SqlSession session = sqlSessionFactory.openSession()) {
         }
-*//*
-
     }
-*/
 
+/*
     public void init() {
         try
                 (
@@ -71,6 +65,7 @@ public class SQliteService {
 /*
         try (SqlSession session = sqlSessionFactory.openSession()) {
         }
-*/
+*//*
     }
+    */
 }

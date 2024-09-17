@@ -29,9 +29,9 @@ namespace sqlite_ikvm_winui_poc
         {
             this.InitializeComponent();
             ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("sqlite.jdbc"));
-/*            ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.flywaydb.core"));
+            ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.flywaydb.core"));
             ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.mybatis"));
-*/          SQliteService sQliteService = new SQliteService();
+            SQliteService sQliteService = new SQliteService();
             sQliteService.init();
         }
 

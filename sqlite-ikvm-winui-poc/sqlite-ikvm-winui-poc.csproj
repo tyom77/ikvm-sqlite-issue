@@ -40,8 +40,8 @@
 		<Compile>C:\dev\sqlite-ikvm-poc\sqlite-service\build\libs\sqlite-service-1.0.0.jar</Compile>
 	</IkvmReference>
 	<MavenReference Include="org.xerial:sqlite-jdbc" Version="3.42.0.0" />
-	<!--MavenReference Include="org.flywaydb:flyway-core" Version="9.16.1" />
-	<MavenReference Include="org.mybatis:mybatis" Version="3.5.11" /-->
+	<MavenReference Include="org.flywaydb:flyway-core" Version="9.16.1" />
+	<MavenReference Include="org.mybatis:mybatis" Version="3.5.11" />
   </ItemGroup>
   <!--
     Defining the "Msix" ProjectCapability here allows the Single-project MSIX Packaging
