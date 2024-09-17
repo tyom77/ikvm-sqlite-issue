@@ -1,0 +1,30 @@
+plugins {
+    id 'java-library'
+}
+
+group = 'com.asukiasyan.poc'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+/*
+    implementation 'org.mybatis:mybatis:3.5.11'
+    implementation 'org.mybatis:mybatis-spring:2.0.6' // If using Spring
+    implementation 'org.flywaydb:flyway-core:9.16.1'
+*/
+    implementation 'org.xerial:sqlite-jdbc:3.42.0.0'
+
+    // Optional logging dependencies
+    implementation 'org.slf4j:slf4j-api:2.0.9'
+    implementation 'org.slf4j:slf4j-simple:2.0.9'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+}
+
+test {
+    useJUnitPlatform()
+}

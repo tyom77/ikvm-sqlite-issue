@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "sqlite-ikvm-winui-poc (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "sqlite-ikvm-winui-poc (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
